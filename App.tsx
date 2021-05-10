@@ -1,6 +1,5 @@
 import React, {useEffect, useRef, useState} from 'react';
 import {
-  Button,
   StyleSheet,
   Text,
   TextInput,
@@ -8,12 +7,11 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native';
-import {Card, Lotie, Modal} from './src/components';
+import {Modal} from './src/components';
 import CardFlip from 'react-native-card-flip';
 import FrontCard from './src/components/card/frontCard';
 import BackCard from './src/components/card/backCard';
 import IconEntypo from 'react-native-vector-icons/Entypo';
-import LottieView from 'lottie-react-native';
 
 const App = () => {
   const [name, setName] = useState('CardHolder Name');
